@@ -64,7 +64,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a
                                 className="nav-link active d-flex align-items-center gap-1 text-white"
-                                href="#"
+                                href=""
 
                             >
                                 <span>Home</span>
