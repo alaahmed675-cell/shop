@@ -3,5 +3,14 @@
  {
     color:var(--bs-nav-link-color);
 }
+.flex{
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    margin-top: 2%;
+}
+.flex2{
+    
+}
 
 
