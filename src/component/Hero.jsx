@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import img from "../../img/ceacf192f06daaf9ab6d0274ea45517b334ce6b1.png"
 const Hero = () => {
   const heroStyle = {
     backgroundColor: '#EDF2EE', // Matching the subtle grey-green background
@@ -28,7 +28,6 @@ const Hero = () => {
       <div className="container" >
         <div className="row align-items-center">
           
-          {/* Left Content Column */}
           <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
             <p className="text-uppercase fw-medium mb-2" style={{ ...greenText, fontSize: '14px', letterSpacing: '1px' }}>
               Welcome to Shopery
@@ -56,10 +55,10 @@ const Hero = () => {
             </button>
           </div>
 
-          {/* Right Image Column */}
+         
           <div className="col-lg-6 position-relative text-center">
             <img 
-              src="/Hero.png" 
+              src={img}
               alt="Fresh Vegetables Basket" 
               className="img-fluid" 
               style={{ maxHeight: '500px', filter: 'drop-shadow(0 20px 30px rgba(0,0,0,0.1))' }}
@@ -67,7 +66,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Carousel Indicators */}
+       
         <div className="position-absolute bottom-0 start-50 translate-middle-x pb-4 d-flex gap-2">
           <span className="rounded-circle" style={{ width: '8px', height: '8px', backgroundColor: '#ccc' }}></span>
           <span className="rounded-circle" style={{ width: '8px', height: '8px', backgroundColor: '#00B207' }}></span>
