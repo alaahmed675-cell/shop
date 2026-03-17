@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import img from "../../img/ceacf192f06daaf9ab6d0274ea45517b334ce6b1.png"
 const Hero = () => {
   const heroStyle = {
-    backgroundColor: '#EDF2EE', // Matching the subtle grey-green background
+    backgroundColor: '#EDF2EE', 
     minHeight: '600px',
     display: 'flex',
     alignItems: 'center',

@@ -62,14 +62,14 @@ export default function Navbar() {
                 <div className="container px-lg-5 d-flex justify-content-between align-items-center">
                     <ul className="navbar-nav d-flex flex-row gap-4">
                         <li className="nav-item">
-                            <a
-                                className="nav-link active d-flex align-items-center gap-1 text-white"
-                                href=""
+                            <Link
+                                className="nav-link active d-flex align-items-center gap-1 "
+                                to="./"
 
                             >
                                 <span>Home</span>
                                 <GoChevronDown size={14} className="mt-1" />
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link
